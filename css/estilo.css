@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    /*background-color: turquoise;*/
+    margin: 0 auto;
+}
+
+header{
+    background-color: #0F0F0F;
+    height: 60px;
+}
+
+.container_header{
+    display: flex;
+    justify-content: flex-end;
+    height: 7%;
+}
+
+header img{
+    position: relative;
+    top: 18px;
+    height: 29px;
+    width: 165px;
+    left: 190px;
+}
+
+.nav_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: violet;*/
+    width: 590px;
+    height: 100%;
+}
+
+.nav_header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+    
+.container_banner{
+    position: relative;
+}
+
+.fundo_banner{
+    width: 100%;
+    height: 485px;
+}
+
+.box_conteudo_banner{
+    position: absolute;
+    top: 140px;
+    left: 880px;
+    color: white;
+   /* display: flex;
+    flex-direction: column;*/
+    width: 200px;
+}
+
+h1{
+    text-transform: uppercase;
+    width: 415px;
+    height: 31px;
+    font-size: 23px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.box_conteudo_banner span{
+    font-size: 12px;
+    text-transform: lowercase;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.info_banner{
+    width: 1441px;
+    height: 243px;
+}
+
+.box_conteudo_banner img{
+    height: 54px;
+    width: 100%;
+}
+
+.container_jogos{
+    background-color: black;
+    height:  86px;
+}
+
+.container_jogos img{
+    height: 36px;
+    width: 110px;
+    position: relative;
+    top: 26px;
+    left: 393px;
+}   
+
+.conteudo_ligas img{
+    height: 530px;
+    width: 100%;
+}
+
+.box_conteudo_ligas{
+     background-color: #000000;
+     position: absolute;
+     height: 542px;
+     width: 100%;
+            clip-path: polygon(100% 0, 100% 67%, 0 100%, 0 34%);
+    left: 0px;
+    top: 563px;
+}
+
+.conteudo_ligas h1{
+    color: #FFFEFE;
+    position: absolute;
+    height: 60px;
+    width: 768px;
+    left: 186px;
+    top: 186px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.conteudo_ligas p{
+    color: #FFFEFE;
+    position: absolute;
+    width: 723px;
+    height: 532px;
+    left: 188px;
+    top: 251px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box_container_ligas img{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left:  918px;;
+    top: 711px;
+}
+
+.containar_ao_vivo{
+    background: #000000;
+    height: 180px;
+    /*width: 100%;*/
+}
+
+.containar_ao_vivo h1{
+    position: absolute;
+    color: #FFFEFE;
+    height: 145px;
+    width: 113px;
+    left: 312px;
+    top: 1183px;
+}
+.containar_ao_vivo h2{
+    position: absolute;
+    color: #FFFEFE;
+    height: 145px;
+    width: 113px;
+    left: 744px;
+    top: 1189px;
+}
+
+.containar_ao_vivo img{
+    position: absolute;
+    height: 57px;
+    width: 275px;
+    left: 436px;
+    top: 1178px;
+}
+
+.containar_box_ao_vivo{
+    
+}
